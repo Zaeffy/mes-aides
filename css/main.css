@@ -1,0 +1,185 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+#main-div {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.copyright {
+    height: 1%;
+    position: absolute;
+    bottom: 2%;
+    width: 40%;
+    font-size: 8pt;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 999;
+}
+
+.copyright.text-right {
+    right: 0%;
+}
+
+.copyright a {
+    color: white;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    top: -200%;
+    left: 0;
+    position: absolute;
+    -webkit-transition: top 1s;
+    -moz-transition: top 1s;
+    -ms-transition: top 1s;
+    -o-transition: top 1s;
+    transition: top 1s;
+    overflow: hidden;
+}
+
+.page.active {
+    top: 0;
+}
+
+.half {
+    width: 30%;
+    height: 80%;
+    float: left;
+    padding: 10%;
+    position: relative;
+}
+
+.blue {
+    background-color: #3498db;
+    color: white;
+}
+
+.center {
+    text-align: center;
+    display: block;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.md-button {
+    border-radius: 30px;
+    border: 2px solid #2c3e50;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.md-button img {
+    vertical-align: middle;
+    height: 50px;
+    margin: 5px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 30%;
+}
+
+.left {
+    position: absolute;
+    left: 10%;
+}
+
+.right {
+    position: absolute;
+    right: 10%;
+}
+
+md-content {
+    height: 100%;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+.input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 40px;
+    border: 1px solid #2c3e50;
+}
+
+input.input {
+    padding: 10px !important;
+}
+
+.small-half {
+    width: 45%;
+    float: left;
+    padding: 2.5%;
+}
+
+.overflow {
+    overflow: auto !important;
+}
+
+.result-container {
+    height: 90%;
+    width: 100%;
+}
+
+.result {
+    border: 1px solid #2c3e50;
+    border-radius: 10px;
+    padding: 2% 2% 5% 2%;
+    width: 90%;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.result-header {
+    color: white;
+    background-color: #3498db;
+    padding: 5px 5px 5px 15px;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.result .bottom {
+    bottom: 0;
+}
+
+.result .left {
+    left: 2%;
+}
+
+.result .right {
+    right: 2%;
+}
+
+.blue a {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
